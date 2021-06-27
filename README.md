@@ -24,6 +24,7 @@ db.createCollection("vmdetails")
 db.vmdetails.insert({'vm_name':'windows','ipv4':'192.168.0.1','ram':'16GB','cpu':'4c','status':'available','client_name':null,'username':'windows'})
 
 #API calls to Get all VM details
+
 curl http://localhost:5000/vmdetails
 
 # APi call to check in vm
