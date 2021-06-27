@@ -1,0 +1,4 @@
+> db.vmdetails.find()
+{ "_id" : ObjectId("60d759169debf9cc9009c4c7"), "vm_name" : "windows", "ipv4" : "192.168.0.1", "ram" : "16GB", "cpu" : "4c", "status" : "InUse", "client_name" : "ericssion", "username" : "windows" }
+{ "_id" : ObjectId("60d7595c9debf9cc9009c4c8"), "vm_name" : "ubuntu", "ipv4" : "192.168.0.2", "ram" : "20GB", "cpu" : "8c", "status" : "available", "client_name" : null, "username" : "ubuntu" }
+{ "_id" : ObjectId("60d759759debf9cc9009c4c9"), "vm_name" : "centos", "ipv4" : "192.168.0.3", "ram" : "12GB", "cpu" : "2c", "status" : "InUse", "client_name" : "intel", "username" : "centos" }
